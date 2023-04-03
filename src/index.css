@@ -1,13 +1,152 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Comic Sans MS;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgb(162, 233, 237),rgb(255, 255, 255));
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Home-div{
+  margin: auto;
+  width: 50vw;
+  height:auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 1px rgb(179, 176, 176);
+  font-family: Comic Sans MS;
+}
+.header{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header h1{
+  color: rgb(14, 164, 164);
+}
+.header h1 img{
+  width: 30px;
+  margin-right: 15px;
+}
+.header input{
+  padding: 5px;
+  padding-left: 5px;
+  margin-right: 10px;
+  border-radius: 2px;
+  border-width: 1px;
+}
+.header input:focus{
+  outline: none;
+}
+.header button{
+  width: 6rem;
+  padding: 5px;
+  color: white;
+  background-color: rgb(21, 188, 188);
+  border-width: 0px;
+  border-radius: 2px;
+}
+
+.header button:hover{
+  /* color: rgb(63, 61, 61); */
+  opacity: 0.8;
+}
+
+
+/* ////////////////////// Weather display Main////////////////// */
+.main-div{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.current-div img{
+  margin-right: 15px;
+  background-size: cover;
+}
+.icon-name-div{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-name-div .icon-name{
+  margin-top: -15px;
+  font-size: 30px;
+  color: rgb(103, 100, 100);
+  margin-right: 15px;
+}
+.region-country{
+  font-size: 15px;
+  margin-top: -25px;
+  color: grey;
+}
+.weath-condn{
+  font-size: 25px;
+  color: rgb(227, 112, 112);
+  margin-top: -20px;
+}
+.position{
+  font-size: 15px;
+  margin-top: -12px;
+  color: rgb(52, 172, 188);
+}
+ span{
+  color: rgb(94, 92, 92);
+}
+.temp-div h4{
+  color: rgb(25, 144, 168);
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: -12px;
+  margin-bottom: 25px;
+}
+
+.temp-div p{
+  color:rgb(22, 138, 153);
+  margin-top: -10px;
+  font-size: 12px;
+  margin-left: 80px;
+}
+
+
+/* ////////////////// forcast weather///////////// */
+
+.forecast-day{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(45deg,rgb(158, 227, 240), rgb(255, 255, 255));
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.forecast-day div{
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.forecast-day img{
+  margin-top: -20px;
+}
+.forecast-date{
+  color: rgb(87, 82, 82);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.weath-condn-forecast{
+  font-size: 25px;
+  color: rgb(172, 64, 64);
+  margin-top: -10px;
+}
+.day-details {
+  padding-top: 15px;
+}
+
+.day-details p{
+   font-size: 12px;
 }
